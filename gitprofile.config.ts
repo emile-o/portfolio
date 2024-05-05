@@ -82,7 +82,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/emile-o/portfolio/blob/main/public/Resume-Emile-Oudejans.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/emile-o/portfolio/blob/main/src/assets/Resume-Emile-Oudejans.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Dart',
