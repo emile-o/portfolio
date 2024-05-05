@@ -81,7 +81,8 @@ const CONFIG = {
     // upwork: 'https://www.upwork.com/freelancers/emileoudejans',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl:
+      'https://github.com/emile-o/portfolio/blob/main/public/Resume-Emile-Oudejans.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Dart',
@@ -240,7 +241,7 @@ const CONFIG = {
   //     rel="noreferrer"
   //   >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
