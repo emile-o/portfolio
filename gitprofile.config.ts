@@ -82,7 +82,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/emile-o/portfolio/blob/main/src/assets/Resume-Emile-Oudejans.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/emile-o/portfolio/blob/main/public/Resume-Emile-Oudejans.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Dart',
@@ -223,23 +223,19 @@ const CONFIG = {
     ],
 
     // Custom theme, applied to `procyon` theme
-    // customTheme: {
-    //   primary: '#fc055b',
-    //   secondary: '#219aaf',
-    //   accent: '#e8d03a',
-    //   neutral: '#2A2730',
-    //   'base-100': '#E3E3ED',
-    //   '--rounded-box': '3rem',
-    //   '--rounded-btn': '3rem',
-    // },
+    customTheme: {
+      //   primary: '#fc055b',
+      //   secondary: '#219aaf',
+      //   accent: '#e8d03a',
+      //   neutral: '#2A2730',
+      //   'base-100': '#E3E3ED',
+      //   '--rounded-box': '3rem',
+      //   '--rounded-btn': '3rem',
+    },
   },
 
   // Optional Footer. Supports plain text or HTML.
-  // footer: `Made with <a
-  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
-  //     target="_blank"
-  //     rel="noreferrer"
-  //   >GitProfile</a> and ❤️`,
+  footer: ``,
 
   enablePWA: false,
 };
