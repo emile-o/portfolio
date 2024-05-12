@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['emile-o/portfolio'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['emile-o/portfolio','emile-o/emile-o'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['emile-o/launch_at_startup', 'emile-o/loadshedding_desktop'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['emile-o/launch_at_startup'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -100,7 +100,7 @@ const CONFIG = {
   experiences: [
     {
       company: 'UpWork',
-      position: 'Software Developer',
+      position: 'Freelance Software Developer',
       from: '2020',
       to: 'Present',
       companyLink: 'https://www.upwork.com/freelancers/emileoudejans',
@@ -235,7 +235,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: ``,
+  footer: `<a href="https://wakatime.com/@3876f5a3-c608-4962-8481-b59e75548e19"><img src="https://wakatime.com/badge/user/3876f5a3-c608-4962-8481-b59e75548e19.svg" alt="Total time coded since Jun 10 2021" /></a>`,
 
   enablePWA: false,
 };
